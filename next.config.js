@@ -2,7 +2,6 @@ const path = require('path')
 const webpack = require('webpack')
 const withCss = require('@zeit/next-css')
 const withSass = require('@zeit/next-sass')
-const withOffline = require('next-offline')
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 const Dotenv = require('dotenv-webpack')
 

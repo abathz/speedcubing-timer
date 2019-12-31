@@ -1,5 +1,5 @@
-import React from 'react';
-import App, { Container } from 'next/app';
+import React, { Fragment } from 'react';
+import App from 'next/app';
 import { withRouter } from 'next/router';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
@@ -22,15 +22,15 @@ class MyApp extends App<Props, {}> {
     render() {
         const { Component, pageProps, router } = this.props;
         return (
-            <Container>
+            <Fragment>
                 <Head>
-                    <title>NextJS</title>
+                    <title>Speedcubing Timer</title>
                 </Head>
                 <NextSEO config={SEO} />
                 <Provider store={store}>
                     <Component {...pageProps} router={router} />
                 </Provider>
-            </Container>
+            </Fragment>
         );
     }
 }

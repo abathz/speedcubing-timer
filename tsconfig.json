@@ -3,7 +3,8 @@
     "target": "es5",
     "module": "esnext",
     "lib": [
-      "es2015"
+      "ES2015",
+      "DOM"
     ],
     "jsx": "preserve",
     "baseUrl": ".",
@@ -20,8 +21,8 @@
       "containers/*": [
         "src/containers/*"
       ],
-      "components": [
-        "src/components"
+      "components/*": [
+        "src/components/*"
       ]
     },
     "esModuleInterop": true,
@@ -32,7 +33,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "strict": true,
+    "strict": true
   },
   "exclude": [
     "node_modules"
