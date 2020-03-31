@@ -23,7 +23,7 @@
     "express": "^4.17.1",
     "immutability-helper": "^3.0.1",
     "lodash": "^4.17.15",
-    "next": "^9.1.6",
+    "next": "^9.3.2",
     "next-seo": "^1.11.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
